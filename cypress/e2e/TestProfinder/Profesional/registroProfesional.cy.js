@@ -7,7 +7,7 @@ describe("Registro Profesional", () => {
     cy.get("#menu-button-\\:ra\\:").click();
     cy.get("body").contains("Soy profesional").click();
     cy.get("[name='name']").type("Cristian Cuesta");
-    cy.get("[name='email']").type("test05@gmail.com");
+    cy.get("[name='email']").type("test50@gmail.com");
     cy.get('[name="password"]').type("Asd123456");
     cy.get("body").contains("Siguiente").click();
     cy.get("[name='phone']").type("3154255555");
